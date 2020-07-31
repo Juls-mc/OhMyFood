@@ -1,0 +1,160 @@
+font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Devonshire', cursive;
+font-family: 'DM Serif Text', serif;
+font-family: 'Itim', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Pen Script', cursive;
+
+
+body
+{
+    width: 100%;
+    height: 100%;
+}
+/********* HEADER *********/
+header
+{
+    background-color:#579c87;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header h1 a
+{
+    display: flex;
+    justify-content: center;
+    color: #fbcc46;
+    font-family: "Montserrat",sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: -0.3rem;
+     text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+/******* MAIN MENUS *******/
+
+.main_menu
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+.zoom
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu_1
+{
+    background: #fcdfdb;
+    width: 350px;
+    height: 510px;
+    box-shadow: 0 0 10px #bbba;
+    text-align: center;
+    font-family: 'Devonshire', cursive;
+    margin: 10px;
+
+}
+.menu_1 h3
+{
+    font-family: 'Itim', cursive;
+
+}
+.menu_2
+{
+    background: #fff5fe;
+    width: 350px;
+    height: 510px;
+    box-shadow: 0 0 10px #bbba;
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    margin: 10px;
+}
+.menu_2 h3
+{
+   font-family: 'DM Serif Text', serif;
+}
+.menu_3
+{
+    background: #f9f9f9;
+    width: 350px;
+    height: 510px;
+    box-shadow: 0 0 10px #bbba;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+}
+.menu_4
+{
+    background: #f9f9f9;
+    width: 350px;
+    height: 510px;
+    box-shadow: 0 0 10px #bbba;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin: 10px;
+}
+.menu_3 h3,.menu_4 h3
+{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.5rem;
+}
+.text_soon
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #fcca46;
+    background-color: #569c87;
+    font-size: 1.6rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.soon
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.dot_1, .dot_2, .dot_3
+{
+    display: inline-block
+}
+
+/******* FOOTER *******/
+
+footer
+{
+ background-color: #579c87;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #a1c181;
+    width: 100%;
+}
+
+footer a
+{
+    color: #fbcc46;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
