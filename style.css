@@ -727,7 +727,7 @@ span {
     /** responsive menu note **/
     .main_note {
         width: 340px;
-        height: 1100px
+        height: 1200px
     }
 
     .titre_note h2 {
@@ -741,24 +741,25 @@ span {
         height: 10px;
         padding-top: 35px;
     }
-    .footer_note h3
-    {
+
+    .footer_note h3 {
         font-size: 1.8rem;
     }
 
-    .titre_note .fa-music{
+    .titre_note .fa-music {
         font-size: 2rem
     }
+
     .footer_note .fa-music {
-    padding-right: 20px;
-    margin-top: 30px;
-    font-size: 2rem;
-}
+        padding-right: 20px;
+        margin-top: 30px;
+        font-size: 2rem;
+    }
 
     /** responsive menu chic **/
     .main_chic {
         width: 340px;
-        height: 1000px;
+        height: 1100px;
     }
 
     .titre_menu_chic_1 img,
@@ -776,7 +777,9 @@ span {
     }
 
     li {
-        text-align: center
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .titre_chic h2 {
@@ -786,7 +789,7 @@ span {
     /** responsive menu delice **/
     .main_delice {
         width: 340px;
-        height: 850px;
+        height: 1000px;
     }
 
     .titre_menu_del img {
@@ -806,7 +809,7 @@ span {
     /** responsive menu palette **/
     .main_palette {
         width: 340px;
-        height: 900px;
+        height: 1050px;
     }
 
     .titre_menu_pal img {
