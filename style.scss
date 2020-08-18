@@ -174,7 +174,6 @@ a {
     font-size: 1.6rem;
     padding: 15px 25px;
     border-radius: 10px;
-    margin-bottom: 8%
 }
 
 .soon {
@@ -242,8 +241,8 @@ a {
 
 footer {
     background-color: #579c87;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #a1c181;
@@ -317,7 +316,7 @@ footer a:hover {
     font-family: "Montserrat", sans-serif;
     margin-top: 3%;
     margin-right: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 3%;
     margin-left: 10%;
 }
 
@@ -337,8 +336,7 @@ footer a:hover {
     padding-top: 20px;
     color: #3d1319;
     font-family: 'Itim';
-    margin-top: 2%;
-    margin-bottom: 13%;
+
 }
 
 .titre_note {
@@ -370,6 +368,7 @@ li {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    font-style: italic;
 }
 
 ul {
@@ -397,11 +396,12 @@ span {
     justify-content: space-around
 }
 
-/********* TITRE SOULIGNÉ MENU NOTE *********/
+/********* TITRE SOULIGNÉ *********/
 
 .titre_menu_note h3 {
     position: relative;
-    font-size: 1.5em;
+    font-style: italic;
+    font-size: 1.5em
 }
 
 .titre_menu_note h3:after {
@@ -424,406 +424,19 @@ span {
 }
 
 /*********** MENU CHIC *********/
-.main_chic {
+.main_chic
+{
     margin: auto;
-    margin-bottom: 15%;
-    margin-top: 2%;
-    display: flex;
+    margin-bottom: 20%;
+     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: #fff5fe;
+    margin: auto;
+    background: #fcdfdb;
     width: 800px;
     height: 1000px;
     box-shadow: 0 0 20px #bbba;
-    font-family: 'DM Serif Text';
-    padding-bottom: 5%
-}
-
-.titre_chic {
-    background: #fff5fe;
-    text-align: center;
-    font-family: 'Croissant One', cursive;
-    font-weight: 100;
-    font-size: 1.7rem;
-    background: linear-gradient(132deg, rgba(227, 138, 18, 1) 0%, rgba(179, 140, 254, 1) 64%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.titre_menu_chic_1 {
-    color: #d3904b;
-}
-
-.titre_menu_chic_2 {
-    color: #a56799;
-}
-
-.titre_menu_chic_3 {
-    color: #6e4ccc;
-}
-
-.menu_jaune {
-    color: #d3904b;
-}
-
-.menu_rose {
-    color: #a56799;
-}
-
-.menu_violet {
-    color: #6e4ccc;
-}
-
-.titre_menu_chic_1,
-.titre_menu_chic_2,
-.titre_menu_chic_3 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%
-}
-
-.titre_menu_chic_1 img,
-.titre_menu_chic_2 img,
-.titre_menu_chic_3 img {
-    width: 250px;
-    height: 20px;
-    padding-top: 22px
-}
-
-/************ TITRE SOULIGNE MENU CHIC **********/
-.titre_menu_chic_1 h3 {
-    position: relative;
-    font-size: 1.3em;
-}
-
-.titre_menu_chic_1 h3:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: #d3904b;
-    transition: width .4s ease;
-    -webkit-transition: width .4s ease;
-}
-
-.titre_menu_chic_1 h3:hover:after {
-    width: 100%;
-    left: 0;
-    background: #d3904b;
-}
-
-.titre_menu_chic_2 h3 {
-    position: relative;
-    font-size: 1.3em;
-}
-
-.titre_menu_chic_2 h3:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: #a56799;
-    transition: width .4s ease;
-    -webkit-transition: width .4s ease;
-}
-
-.titre_menu_chic_2 h3:hover:after {
-    width: 100%;
-    left: 0;
-    background: #a56799;
-}
-
-.titre_menu_chic_3 h3 {
-    position: relative;
-    font-size: 1.3em;
-}
-
-.titre_menu_chic_3 h3:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: #6e4ccc;
-    transition: width .4s ease;
-    -webkit-transition: width .4s ease;
-}
-
-.titre_menu_chic_3 h3:hover:after {
-    width: 100%;
-    left: 0;
-    background: #6e4ccc;
-}
-
-/************ MENU DELICE ************/
-
-.main_delice {
-    margin: auto;
-    margin-bottom: 15%;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #fff;
-    width: 800px;
-    height: 1000px;
-    box-shadow: 0 0 20px #bbba;
+    padding-top: 20px;
+    color: #3d1319;
     font-family: 'Itim';
-    color: grey;
-    padding-bottom: 5%
 }
-
-.titre_delice {
-    background: #EDEFEF;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 2.2rem;
-    font-weight: 100;
-    background: linear-gradient(90deg, rgba(11, 49, 222, 1) 0%, rgba(106, 181, 250, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.titre_menu_del {
-    color: grey;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%
-}
-
-.titre_menu_del img {
-    width: 250px;
-    height: 20px;
-    padding-top: 22px
-}
-
-/************ TITRE SOULIGNE MENU DELICE **********/
-.titre_menu_del h3 {
-    position: relative;
-    font-size: 1.3em;
-}
-
-.titre_menu_del h3:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: grey;
-    transition: width .4s ease;
-    -webkit-transition: width .4s ease;
-}
-
-.titre_menu_del h3:hover:after {
-    width: 100%;
-    left: 0;
-    background: grey;
-}
-
-/************ MENU PALETTE ************/
-
-.main_palette {
-    margin: auto;
-    margin-bottom: 15%;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #fff;
-    width: 800px;
-    height: 1000px;
-    box-shadow: 0 0 20px #bbba;
-    font-family: 'Itim';
-    color: grey;
-    padding-bottom: 5%;
-}
-
-.titre_palette {
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 2.2rem;
-    font-weight: 100;
-    background: linear-gradient(102deg, rgba(62, 146, 58, 1) 0%, rgba(190, 255, 127, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.titre_menu_pal {
-    color: grey;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5%
-}
-
-.titre_menu_pal img {
-    width: 250px;
-    height: 20px;
-    padding-top: 22px
-}
-
-/************ TITRE SOULIGNE MENU PALETTE **********/
-.titre_menu_pal h3 {
-    position: relative;
-    font-size: 1.3em;
-}
-
-.titre_menu_pal h3:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: grey;
-    transition: width .4s ease;
-    -webkit-transition: width .4s ease;
-}
-
-.titre_menu_pal h3:hover:after {
-    width: 100%;
-    left: 0;
-    background: grey;
-}
-
-
-
-/********* PARTIE RESPONSIVE small screen **********/
-@media screen and (max-width: 768px) {
-    .main_menu {
-        margin: 30px
-    }
-
-    header h1 a {
-        font-size: 2.3rem;
-        letter-spacing: -0.2rem;
-    }
-
-    .menu_1,
-    .menu_2,
-    .menu_3,
-    .menu_4 {
-        margin: 10px;
-    }
-
-    .text_soon {
-        font-size: 1.2rem;
-    }
-
-    footer a {
-        font-size: 1.1rem;
-    }
-
-    /** responsive menu note **/
-    .main_note {
-        width: 340px;
-        height: 1100px
-    }
-
-    .titre_note h2 {
-        margin-bottom: 0;
-        margin-top: 10px;
-        font-size: 2rem;
-    }
-
-    .titre_menu_note img {
-        width: 70px;
-        height: 10px;
-        padding-top: 35px;
-    }
-    .footer_note h3
-    {
-        font-size: 1.8rem;
-    }
-
-    .titre_note .fa-music{
-        font-size: 2rem
-    }
-    .footer_note .fa-music {
-    padding-right: 20px;
-    margin-top: 30px;
-    font-size: 2rem;
-}
-
-    /** responsive menu chic **/
-    .main_chic {
-        width: 340px;
-        height: 1000px;
-    }
-
-    .titre_menu_chic_1 img,
-    .titre_menu_chic_2 img,
-    .titre_menu_chic_3 img {
-        width: 70px;
-        height: 10px;
-        padding-top: 22px;
-    }
-
-    .titre_menu_chic_1,
-    .titre_menu_chic_2,
-    .titre_menu_chic_3 {
-        font-size: 0.8rem;
-    }
-
-    li {
-        text-align: center
-    }
-
-    .titre_chic h2 {
-        font-size: 2rem;
-    }
-
-    /** responsive menu delice **/
-    .main_delice {
-        width: 340px;
-        height: 850px;
-    }
-
-    .titre_menu_del img {
-        width: 70px;
-        height: 10px;
-        padding-top: 22px;
-    }
-
-    .titre_menu_del {
-        font-size: 0.8rem
-    }
-
-    .titre_delice h2 {
-        font-size: 2rem;
-    }
-
-    /** responsive menu palette **/
-    .main_palette {
-        width: 340px;
-        height: 900px;
-    }
-
-    .titre_menu_pal img {
-        width: 70px;
-        height: 10px;
-        padding-top: 22px;
-    }
-
-    .titre_menu_pal {
-        font-size: 0.8rem
-    }
-
-    .titre_palette h2 {
-        font-size: 2rem;
-    }
-}
-
-/****** MEDIA QUERY tablet size ******/
-
-@media screen and (min-width: 768px) and (max-width:1025px)
