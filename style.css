@@ -181,7 +181,7 @@ a {
 .soon {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin: 60px;
 }
 
 .dot_1,
@@ -974,7 +974,8 @@ span {
     .menu_2,
     .menu_3,
     .menu_4 {
-        margin: 50px;
+        margin: 100px;
+        margin-bottom: 30px;
         width: 300px;
         height: 450px;
     }
