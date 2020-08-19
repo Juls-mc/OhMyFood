@@ -715,7 +715,7 @@ span {
     .menu_3,
     .menu_4 {
         margin: 10px;
-         width: 290px;
+        width: 290px;
         height: 400px;
     }
 
@@ -856,7 +856,8 @@ span {
         width: 300px;
         height: 430px;
     }
-     /** responsive menu note **/
+
+    /** responsive menu note **/
     .main_note {
         width: 550px;
         height: 1050px;
@@ -967,8 +968,9 @@ span {
         font-size: 2.5rem;
     }
 }
+
 /****** MEDIA QUERY large screen size ******/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
     .menu_1,
     .menu_2,
