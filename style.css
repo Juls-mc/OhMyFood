@@ -978,4 +978,13 @@ span {
         width: 300px;
         height: 450px;
     }
+    .first_menus
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .second_menus
+    {
+        display: flex;
+    }
 }
