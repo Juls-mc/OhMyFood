@@ -723,6 +723,11 @@ span {
         font-size: 1.2rem;
     }
 
+    .soon {
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
     footer a {
         font-size: 1.1rem;
     }
