@@ -975,15 +975,15 @@ span {
 }
 
 /****** MEDIA QUERY large screen size ******/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1500px) {
 
     .menu_1,
     .menu_2,
     .menu_3,
     .menu_4 {
         margin: 100px;
-        margin-bottom: 30px;
-        width: 300px;
-        height: 450px;
+        margin-bottom: 100px;
+        width: 350px;
+        height: 550px;
     }
 }
