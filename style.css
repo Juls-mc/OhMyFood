@@ -34,9 +34,9 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
-    margin-right: 150px;
+    margin-right: 50px;
     margin-bottom: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .zoom {
@@ -700,7 +700,7 @@ span {
 
 
 /********* PARTIE RESPONSIVE small screen **********/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .main_menu {
         margin: 30px
     }
@@ -715,6 +715,8 @@ span {
     .menu_3,
     .menu_4 {
         margin: 10px;
+         width: 290px;
+        height: 400px;
     }
 
     .text_soon {
@@ -727,8 +729,10 @@ span {
 
     /** responsive menu note **/
     .main_note {
-        width: 340px;
-        height: 1200px
+        width: 320px;
+        height: 1250px;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     .titre_note h2 {
@@ -761,6 +765,8 @@ span {
     .main_chic {
         width: 340px;
         height: 1100px;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     .titre_menu_chic_1 img,
@@ -785,12 +791,15 @@ span {
 
     .titre_chic h2 {
         font-size: 2rem;
+        margin-bottom: 0;
     }
 
     /** responsive menu delice **/
     .main_delice {
-        width: 340px;
+        width: 320px;
         height: 1000px;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     .titre_menu_del img {
@@ -809,8 +818,10 @@ span {
 
     /** responsive menu palette **/
     .main_palette {
-        width: 340px;
+        width: 320px;
         height: 1050px;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     .titre_menu_pal img {
@@ -830,4 +841,129 @@ span {
 
 /****** MEDIA QUERY tablet size ******/
 
-@media screen and (min-width: 768px) and (max-width:1025px)
+@media screen and (min-width: 768px) and (max-width:1025px) {
+    .main_menu {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .menu_1,
+    .menu_2,
+    .menu_3,
+    .menu_4 {
+        margin: 20px;
+        width: 300px;
+        height: 430px;
+    }
+     /** responsive menu note **/
+    .main_note {
+        width: 550px;
+        height: 1050px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .titre_note h2 {
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 2.5rem;
+    }
+
+    .titre_menu_note img {
+        width: 150px;
+        height: 10px;
+        padding-top: 35px;
+    }
+
+    .footer_note h3 {
+        font-size: 1.8rem;
+    }
+
+    .titre_note .fa-music {
+        font-size: 2rem
+    }
+
+    .footer_note .fa-music {
+        padding-right: 20px;
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    /** responsive menu chic **/
+    .main_chic {
+        width: 550px;
+        height: 950px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .titre_menu_chic_1 img,
+    .titre_menu_chic_2 img,
+    .titre_menu_chic_3 img {
+        width: 150px;
+        height: 10px;
+        padding-top: 22px;
+    }
+
+    .titre_menu_chic_1,
+    .titre_menu_chic_2,
+    .titre_menu_chic_3 {
+        font-size: 0.8rem;
+    }
+
+    li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titre_chic h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    /** responsive menu delice **/
+    .main_delice {
+        width: 550px;
+        height: 950px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .titre_menu_del img {
+        width: 150px;
+        height: 10px;
+        padding-top: 22px;
+    }
+
+    .titre_menu_del {
+        font-size: 0.8rem
+    }
+
+    .titre_delice h2 {
+        font-size: 2.5rem;
+    }
+
+    /** responsive menu palette **/
+    .main_palette {
+        width: 550px;
+        height: 950px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .titre_menu_pal img {
+        width: 120px;
+        height: 10px;
+        padding-top: 22px;
+    }
+
+    .titre_menu_pal {
+        font-size: 0.8rem
+    }
+
+    .titre_palette h2 {
+        font-size: 2.5rem;
+    }
+}
