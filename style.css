@@ -967,3 +967,15 @@ span {
         font-size: 2.5rem;
     }
 }
+/****** MEDIA QUERY large screen size ******/
+@media screen and (min-width: 1024px){
+
+    .menu_1,
+    .menu_2,
+    .menu_3,
+    .menu_4 {
+        margin: 50px;
+        width: 300px;
+        height: 450px;
+    }
+}
